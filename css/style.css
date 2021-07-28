@@ -14,7 +14,7 @@
 -------------------- */
 header {
   --header-bg: #264653;
-  --btn-bg: #ec6f51;
+  --btn-bg: #e76f51;
 }
 
 .header--bg {
@@ -24,4 +24,18 @@ header {
 /* banner */
 .button--bg {
   background: var(--btn-bg) !important;
+}
+
+/* --------------------
+    MAIN STYLES 
+-------------------- */
+main {
+  --subtxt-color: #e76f51;
+}
+
+.feature--subtxt {
+  color: var(--subtxt-color);
+}
+.feature__filter--image {
+  filter: grayscale(1);
 }
