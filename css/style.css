@@ -1,3 +1,27 @@
-.heading {
-    color: red;
+/* --------------------
+    GOOGLE FONTS
+-------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&display=swap');
+
+/* body */
+.body--font {
+  font-family: 'Poppins', sans-serif;
+}
+/* font-family: 'Inter', sans-serif; {use in faq section} */
+
+/* --------------------
+    HEADER STYLES 
+-------------------- */
+header {
+  --header-bg: #264653;
+  --btn-bg: #ec6f51;
+}
+
+.header--bg {
+  background-color: var(--header-bg);
+}
+
+/* banner */
+.button--bg {
+  background: var(--btn-bg) !important;
 }

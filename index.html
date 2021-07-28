@@ -1,20 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>honda mall</title>
 
     <!-- css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
-<body>
-    <h1 class="heading">hello world</h1>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="body--font">
+    <!-- ******************** 
+            HEADER
+    ******************** -->
+    <header class="header--bg">
+      <!-- NAVBAR -->
+      <nav class="container navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <!-- navbar toogler button -->
+          <button
+            class="ms-auto navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- navbar links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mt-lg-3 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item ms-lg-5 mt-2 mt-lg-0">
+                <button class="btn btn-primary">Login</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- BANNER -->
+      <div class="container-fluid row align-items-center py-5 text-white">
+        <!-- ************* 
+          BANNER DESCRIPTION
+        ************* -->
+        <div class="col-md col-lg-7">
+          <small>
+            Computer-controlled digital transistorized with electronic advance
+          </small>
+          <h1 class="display-3 fw-bold">Honda CBR 300R</h1>
+          <p>
+            The CBR300R’s single-cylinder power plant is engineered with the
+            rider in mind. Lightweight, simple and fuel efficient, the engine
+            features a broad powerband and confidence-inspiring fueling for easy
+            rides in town and out on the road.
+          </p>
+
+          <!-- *************
+            MODAL BUTTON CONTAINER
+          ************* -->
+          <div>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn rounded-3 text-white button--bg"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Purchase
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade text-dark"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <!-- modal header -->
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Credit Card Payment Gateway
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+
+                  <!-- modal body -->
+                  <div class="modal-body">
+                    <!-- credit card info container -->
+                    <div class="container">
+                      <!-- credit card icons -->
+                      <div class="row mt-2 justify-content-center">
+                        <img
+                          class="col-2"
+                          src="assets/icons/credit-cards/mastercard.png"
+                          alt="mastercard"
+                        />
+                        <img
+                          class="col-2"
+                          src="assets/icons/credit-cards/visa.png"
+                          alt="visa"
+                        />
+                        <img
+                          class="col-2"
+                          src="assets/icons/credit-cards/paypal.png"
+                          alt="paypal"
+                        />
+                        <img
+                          class="col-2"
+                          src="assets/icons/credit-cards/switch.png"
+                          alt="switch"
+                        />
+                        <img
+                          class="col-2"
+                          src="assets/icons/credit-cards/cirrus.png"
+                          alt="cirrus"
+                        />
+                      </div>
+
+                      <!-- card number -->
+                      <div class="row mt-2">
+                        <div class="col">
+                          <h6 class="text-uppercase fw-bold">card number</h6>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="xxxx-yyyy-xxxx-yyyy"
+                            aria-label="card number"
+                          />
+                        </div>
+                      </div>
+
+                      <!-- expiration date and cv code -->
+                      <div class="row mt-2">
+                        <!-- expiration date -->
+                        <div class="col">
+                          <h6 class="text-uppercase fw-bold">
+                            Expiration date
+                          </h6>
+                          <input
+                            type="date"
+                            class="form-control"
+                            aria-label="expiration date"
+                          />
+                        </div>
+
+                        <!-- cv code -->
+                        <div class="col">
+                          <h6 class="text-uppercase fw-bold">cv code</h6>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="CVC"
+                            aria-label="CVC"
+                          />
+                        </div>
+                      </div>
+
+                      <!-- card holder -->
+                      <div class="row mt-2">
+                        <div class="col">
+                          <h6 class="text-uppercase fw-bold">card holder</h6>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="card holder name"
+                            aria-label="card holder name"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success w-75 mx-auto">
+                      Complete Payment
+                    </button>
+
+                    <button
+                      type="button"
+                      class="btn btn-warning w-75 mx-auto w-sm-fluid"
+                      data-bs-dismiss="modal"
+                    >
+                      Cancel
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ************* 
+          BANNER IMAGE
+        ************* -->
+        <div class="col-md col-lg-5 mt-md-0 mt-5">
+          <img
+            class="img-fluid"
+            src="assets/images/header-bike.png"
+            alt="honda cbr 3000r bike"
+          />
+        </div>
+      </div>
+    </header>
+
     <!-- bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
