@@ -75,19 +75,19 @@
         </nav>
 
         <!-- BANNER -->
-        <section
-          id="home"
-          class="container-fluid row align-items-center py-5 text-white"
-        >
+        <section id="home" class="row align-items-center py-5 mt-5 text-white">
           <!-- ************* 
             BANNER DESCRIPTION
           ************* -->
-          <div class="col-md col-lg-7">
+          <div class="col-lg">
+            <!-- banner subtitle -->
             <small>
               Computer-controlled digital transistorized with electronic advance
             </small>
-            <h1 class="display-3 fw-bold">Honda CBR 300R</h1>
-            <p>
+            <!-- banner title -->
+            <h1 class="display-5 fw-bold">Honda CBR 300R</h1>
+            <!-- banner descripiton text -->
+            <p class="mb-4">
               The CBR300R’s single-cylinder power plant is engineered with the
               rider in mind. Lightweight, simple and fuel efficient, the engine
               features a broad powerband and confidence-inspiring fueling for
@@ -244,9 +244,9 @@
           <!-- ************* 
             BANNER IMAGE
           ************* -->
-          <div class="col-md col-lg-5 mt-md-0 mt-5">
+          <div class="col-lg mt-lg-0 mt-5">
             <img
-              class="img-fluid"
+              class="w-100"
               src="assets/images/header-bike.png"
               alt="honda cbr 3000r bike"
             />
@@ -265,20 +265,16 @@
       <section class="my-5">
         <!-- feature titles -->
         <div class="text-center">
-          <h2 class="fw-bold text-uppercase">featured bikes 2021</h2>
-          <small class="subtxt--color mt-n5">Best bike collection</small>
+          <h2 class="fw-bold display-5 text-uppercase">featured bikes 2021</h2>
+          <small class="fw-bold subtxt--color mt-n5"
+            >Best bike collection</small
+          >
         </div>
+
         <!-- feature bikes -->
-        <div
-          class="
-            row
-            gy-5
-            mt-3 mt-md-5
-            justify-content-between justify-content-lg-evenly
-          "
-        >
+        <div class="row gy-5 mt-3 mt-md-5">
           <!-- feature bike 1 -->
-          <div class="col-md-3 p-5 p-md-0">
+          <div class="col-md">
             <img
               class="img-fluid feature__filter--image"
               src="assets/images/feature-bike.jpg"
@@ -287,7 +283,7 @@
           </div>
 
           <!-- feature bike 2 -->
-          <div class="col-md-3 p-5 p-md-0">
+          <div class="col-md">
             <img
               class="img-fluid"
               src="assets/images/feature-bike.jpg"
@@ -296,7 +292,7 @@
           </div>
 
           <!-- feature bike 3 -->
-          <div class="col-md-3 p-5 p-md-0">
+          <div class="col-md">
             <img
               class="img-fluid feature__filter--image"
               src="assets/images/feature-bike.jpg"
@@ -309,10 +305,10 @@
       <!-- ************* 
         LATEST NEWS SECTION
       ************* -->
-      <section id="news">
+      <section id="news" class="my-5 pt-4">
         <!-- LATEST NEWS TITLE -->
-        <div class="text-left text-md-center">
-          <h2 class="fw-bold">Latest News</h2>
+        <div class="text-left text-md-center pt-lg-5">
+          <h2 class="display-6 fw-bold">Latest News</h2>
         </div>
 
         <!-- LATEST NEWS CONTAINER -->
@@ -325,7 +321,7 @@
           "
         >
           <!-- NEWS ONE -->
-          <article class="card col-md py-3" style="max-width: 21rem">
+          <article class="card col-md py-3">
             <!-- news image -->
             <img
               src="assets/images/bikes/bike-1.png"
@@ -335,7 +331,7 @@
 
             <!-- news body -->
             <div class="card-body">
-              <h5 class="card-title fw-bold">Ducati XDIAVEL S-73</h5>
+              <h4 class="card-title fw-bold">Ducati XDIAVEL S-73</h4>
               <p class="card-text">
                 Awesome bike with maximum speed. Best for long drive.
               </p>
@@ -350,7 +346,7 @@
           </article>
 
           <!-- NEWS TWO -->
-          <article class="card col-md py-3" style="max-width: 21rem">
+          <article class="card col-md py-3 mx-md-3">
             <!-- news image -->
             <img
               src="assets/images/bikes/bike-2.png"
@@ -360,7 +356,7 @@
 
             <!-- news body -->
             <div class="card-body">
-              <h5 class="card-title fw-bold">Suzuki R-322</h5>
+              <h4 class="card-title fw-bold">Suzuki R-322</h4>
               <p class="card-text">
                 Best for office work. The engine gives you more backup than any
                 other bikes.
@@ -376,7 +372,7 @@
           </article>
 
           <!-- NEWS THREE -->
-          <article class="card col-md py-3" style="max-width: 21rem">
+          <article class="card col-md py-3">
             <!-- news image -->
             <img
               src="assets/images/bikes/bike-3.png"
@@ -386,7 +382,7 @@
 
             <!-- news body -->
             <div class="card-body">
-              <h5 class="card-title fw-bold">2021 Honda CBR500R</h5>
+              <h4 class="card-title fw-bold">2021 Honda CBR500R</h4>
               <p class="card-text">
                 racing bike with solid components.quick acceleration the best
                 feature of this bike.
@@ -406,10 +402,10 @@
       <!-- ************* 
         RATINGS SECTION
       ************* -->
-      <section class="my-5">
+      <section class="my-5 pt-4">
         <!-- Ratings title -->
-        <div class="text-center">
-          <h2 class="fw-bold text-uppercase">
+        <div class="text-center pt-lg-5">
+          <h2 class="display-5 fw-bold text-uppercase">
             Happy <span class="subtxt--color">Clients says</span>
           </h2>
         </div>
@@ -424,7 +420,7 @@
           "
         >
           <!-- CUSTOMER ONE -->
-          <div class="card col-md text-center" style="width: 21rem">
+          <article class="card col-md text-center">
             <div class="card-body">
               <!-- customer image -->
               <img
@@ -435,8 +431,7 @@
 
               <!-- customer review -->
               <p class="card-textcol mt-4">
-                My bike perform beyond my imagination. I am happy to be with
-                them.
+                My bike perform beyond my imagination. Happy to be with them.
               </p>
 
               <!-- review status -->
@@ -454,10 +449,10 @@
               <!-- customer title -->
               <small>Racer</small>
             </div>
-          </div>
+          </article>
 
           <!-- CUSTOMER TWO -->
-          <div class="card col-md text-center" style="width: 21rem">
+          <article class="card col-md mx-md-3 text-center">
             <div class="card-body">
               <!-- customer image -->
               <img
@@ -487,10 +482,10 @@
               <!-- customer title -->
               <small>Banker</small>
             </div>
-          </div>
+          </article>
 
           <!-- CUSTOMER THREE -->
-          <div class="card col-md text-center" style="width: 21rem">
+          <article class="card col-md text-center">
             <div class="card-body">
               <!-- customer image -->
               <img
@@ -520,17 +515,17 @@
               <!-- customer title -->
               <small>Developer</small>
             </div>
-          </div>
+          </article>
         </div>
       </section>
 
       <!-- ************* 
         FAQ SECTION
       ************* -->
-      <section id="faq">
+      <section id="faq" class="my-5 pt-4">
         <!-- FAQ TITLE -->
-        <div class="text-center">
-          <h2 class="fw-bold text-uppercase">
+        <div class="text-center pt-lg-5">
+          <h2 class="fw-bold display-5 text-uppercase">
             Frequently Asked <span class="subtxt--color">Questions</span>
           </h2>
         </div>
@@ -556,7 +551,7 @@
 
           <!-- FAQ QUESTIONS AND ANSWERS -->
           <div
-            class="col-md-6 accordion mt-3 mt-md-0"
+            class="col-md-6 row gy-3 accordion mt-3 mt-md-0"
             id="accordionPanelsStayOpenExample"
           >
             <!-- faq one -->
@@ -564,11 +559,11 @@
               <!-- question -->
               <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                 <button
-                  class="accordion-button"
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#panelsStayOpen-collapseOne"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseOne"
                 >
                   What are the most important things I should know about riding
@@ -579,7 +574,7 @@
               <!-- answer -->
               <div
                 id="panelsStayOpen-collapseOne"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
                 aria-labelledby="panelsStayOpen-headingOne"
               >
                 <div class="accordion-body">
@@ -684,12 +679,14 @@
       <!-- *************
         DEMO PRODUCTS SECTION
       ************* -->
-      <section id="products" class="my-5">
+      <section id="products" class="my-5 pt-4">
         <!-- DEMO PRODUCTS TITLE -->
-        <h2 class="fw-bold text-center text-uppercase">demo products</h2>
+        <div class="text-center pt-lg-5">
+          <h2 class="fw-bold display-5 text-uppercase">demo products</h2>
+        </div>
 
         <!-- DEMO PODUCTS CAROUSEL -->
-        <div class="row">
+        <div class="row mx-auto mt-5" style="max-width: 45rem">
           <div
             id="carouselExampleCaptions"
             class="carousel slide"
@@ -724,6 +721,7 @@
                   src="assets/images/products/product-1.png"
                   class="d-block w-100"
                   alt="demo product one"
+                  style="max-height: 37rem"
                 />
                 <div class="carousel-caption">
                   <h5 class="display-5 fw-bold fst-italic">Honda Hero-500C</h5>
@@ -736,6 +734,7 @@
                   src="assets/images/products/product-2.png"
                   class="d-block w-100"
                   alt="demo products two"
+                  style="max-height: 37rem"
                 />
                 <div class="carousel-caption">
                   <h5 class="display-5 fw-bold fst-italic">Yamaha 400-CC</h5>
@@ -748,6 +747,7 @@
                   src="assets/images/products/product-3.png"
                   class="d-block w-100"
                   alt="demo poduct three"
+                  style="max-height: 37rem"
                 />
                 <div class="carousel-caption">
                   <h5 class="display-5 fw-bold fst-italic">Hero 500-RZ</h5>
@@ -785,15 +785,18 @@
       <!-- *************
         COMPARISON SECTION
       ************* -->
-      <section>
+      <section class="my-5 pt-4">
         <!-- comaprison title -->
-        <h2 class="fw-bold text-center text-uppercase">
-          individual <span class="ratings--title">bike features</span>
-        </h2>
+        <div class="pt-lg-4 text-center">
+          <h2 class="fw-bold text-uppercase">
+            individual <span class="ratings--title">bike features</span>
+          </h2>
+        </div>
 
         <!-- comparison table -->
-        <div class="table-responsive">
+        <div class="table-responsive mt-5">
           <table class="table table-hover table-striped text-center">
+            <!-- table head -->
             <thead class="table-dark">
               <tr>
                 <th class="text-uppercase" scope="col">features</th>
@@ -802,6 +805,8 @@
                 <th scope="col">Hero</th>
               </tr>
             </thead>
+
+            <!-- table body -->
             <tbody>
               <!-- lightweight -->
               <tr>
@@ -1007,6 +1012,53 @@
                 <td>$3000-$2000</td>
                 <td>$2000-$1000</td>
                 <td>$1000-$500</td>
+              </tr>
+
+              <!-- performance -->
+              <tr>
+                <th>Performance(100)</th>
+                <td>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped bg-success"
+                      role="progressbar"
+                      style="width: 100%"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      100%
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped bg-info"
+                      role="progressbar"
+                      style="width: 75%"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      75%
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped bg-warning"
+                      role="progressbar"
+                      style="width: 50%"
+                      aria-valuenow="50"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      50%
+                    </div>
+                  </div>
+                </td>
               </tr>
             </tbody>
           </table>

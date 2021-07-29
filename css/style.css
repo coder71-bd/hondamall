@@ -13,7 +13,6 @@ body {
 .body--font {
   font-family: 'Poppins', sans-serif;
 }
-
 .button--bg {
   background: var(--btn-bg) !important;
 }
@@ -36,9 +35,11 @@ header {
     MAIN STYLES 
 -------------------- */
 main {
+  --icon-size: 1.375rem;
   --icon-color: #e77c40;
   --title-color: #23a6f0;
 }
+
 /* FEATURE SECTION */
 .feature__filter--image {
   filter: grayscale(1);
@@ -46,6 +47,7 @@ main {
 
 /* RATINGS SECTION */
 .ratings--icon i {
+  font-size: var(--icon-size);
   color: var(--icon-color);
 }
 
