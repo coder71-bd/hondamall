@@ -243,18 +243,25 @@
     <!-- ******************** 
             MAIN
     ******************** -->
-    <main class="container mt-5">
+    <main class="container">
       <!-- ************* 
           FEATURE SECTION
-        ************* -->
-      <section>
+      ************* -->
+      <section class="my-5">
         <!-- feature titles -->
         <div class="text-center">
-          <h2 class="fw-bold">featured bikes 2021</h2>
+          <h2 class="fw-bold text-uppercase">featured bikes 2021</h2>
           <small class="feature--subtxt mt-n5">Best bike collection</small>
         </div>
         <!-- feature bikes -->
-        <div class="row gy-5 mt-3 mt-md-5 justify-content-between">
+        <div
+          class="
+            row
+            gy-5
+            mt-3 mt-md-5
+            justify-content-between justify-content-lg-evenly
+          "
+        >
           <!-- feature bike 1 -->
           <div class="col-md-3 p-5 p-md-0">
             <img
@@ -281,6 +288,103 @@
               alt="bike 3"
             />
           </div>
+        </div>
+      </section>
+
+      <!-- ************* 
+        LATEST NEWS SECTION
+      ************* -->
+      <section>
+        <!-- LATEST NEWS TITLE -->
+        <div class="text-left text-md-center">
+          <h2 class="fw-bold">Latest News</h2>
+        </div>
+
+        <!-- LATEST NEWS CONTAINER -->
+        <div
+          class="
+            row
+            justify-content-center justify-content-md-evenly
+            gy-3
+            mt-3 mt-md-5
+          "
+        >
+          <!-- NEWS ONE -->
+          <article class="card col-md py-3" style="max-width: 21rem">
+            <!-- news image -->
+            <img
+              src="assets/images/bikes/bike-1.png"
+              class="card-img-top"
+              alt="news one"
+            />
+
+            <!-- news body -->
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Ducati XDIAVEL S-73</h5>
+              <p class="card-text">
+                Awesome bike with maximum speed. Best for long drive.
+              </p>
+            </div>
+
+            <!-- news button -->
+            <div class="ms-3">
+              <button type="button" class="btn btn-outline-danger">
+                Read More
+              </button>
+            </div>
+          </article>
+
+          <!-- NEWS TWO -->
+          <article class="card col-md py-3" style="max-width: 21rem">
+            <!-- news image -->
+            <img
+              src="assets/images/bikes/bike-2.png"
+              class="card-img-top"
+              alt="news two"
+            />
+
+            <!-- news body -->
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Suzuki R-322</h5>
+              <p class="card-text">
+                Best for office work. The engine gives you more backup than any
+                other bikes.
+              </p>
+            </div>
+
+            <!-- news button -->
+            <div class="ms-3">
+              <button type="button" class="btn btn-outline-danger">
+                Read More
+              </button>
+            </div>
+          </article>
+
+          <!-- NEWS THREE -->
+          <article class="card col-md py-3" style="max-width: 21rem">
+            <!-- news image -->
+            <img
+              src="assets/images/bikes/bike-3.png"
+              class="card-img-top"
+              alt="news three"
+            />
+
+            <!-- news body -->
+            <div class="card-body">
+              <h5 class="card-title fw-bold">2021 Honda CBR500R</h5>
+              <p class="card-text">
+                racing bike with solid components.quick acceleration the best
+                feature of this bike.
+              </p>
+            </div>
+
+            <!-- news button -->
+            <div class="ms-3">
+              <button type="button" class="btn btn-outline-danger">
+                Read More
+              </button>
+            </div>
+          </article>
         </div>
       </section>
     </main>
