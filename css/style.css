@@ -13,7 +13,7 @@ body {
 .body--font {
   font-family: 'Poppins', sans-serif;
 }
-.button--bg {
+.banner--btn {
   background: var(--btn-bg) !important;
 }
 .subtxt--color {
@@ -29,6 +29,12 @@ header {
 
 .header--bg {
   background-color: var(--header-bg);
+}
+
+.banner--btn:hover {
+  background-color: #f1957e !important;
+  color: #0e1a1f !important;
+  transition: background-color 0.5s ease-out;
 }
 
 /* --------------------
