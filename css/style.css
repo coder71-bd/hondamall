@@ -13,10 +13,12 @@ body {
 .body--font {
   font-family: 'Poppins', sans-serif;
 }
-/* font-family: 'Inter', sans-serif; {use in faq section} */
 
 .button--bg {
   background: var(--btn-bg) !important;
+}
+.subtxt--color {
+  color: var(--btn-bg);
 }
 
 /* --------------------
@@ -34,13 +36,24 @@ header {
     MAIN STYLES 
 -------------------- */
 main {
-  --subtxt-color: #e76f51;
+  --icon-color: #e77c40;
+  --title-color: #23a6f0;
 }
-
-.feature--subtxt {
-  color: var(--subtxt-color);
-}
-
+/* FEATURE SECTION */
 .feature__filter--image {
   filter: grayscale(1);
+}
+
+/* RATINGS SECTION */
+.ratings--icon i {
+  color: var(--icon-color);
+}
+
+.ratings--title {
+  color: var(--title-color);
+}
+
+/* FAQ SECTION */
+.faq--font {
+  font-family: 'Inter', sans-serif;
 }
