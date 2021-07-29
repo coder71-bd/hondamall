@@ -57,3 +57,14 @@ main {
 .faq--font {
   font-family: 'Inter', sans-serif;
 }
+
+/* --------------------
+    FOOTER STYLES 
+-------------------- */
+footer {
+  --footer-bg: #0b0d17;
+}
+
+.footer--bg {
+  background-color: var(--footer-bg);
+}
